@@ -1,0 +1,17 @@
+<Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Label Content="墙的属性" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+            <ComboBox HorizontalAlignment="Center"  VerticalAlignment="Center" Width="120"
+                      Name="wallParameterNameCombo" ItemsSource="{Binding}" SelectionChanged="WallParameterNameCombo_SelectionChanged"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Label Content="墙的属性值" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+            <ComboBox HorizontalAlignment="Center"  VerticalAlignment="Center" Width="120"
+                  Name="wallValueCombo"    ItemsSource="{Binding}"/>
+            <Button Width="80" Height="50" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                    Content="确认" Click="Button_Click"/>
+        </Grid>
+        

@@ -1,0 +1,94 @@
+﻿<Window x:Class="ArchiElement.RibbonWPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArchiElement"
+        mc:Ignorable="d"
+        Title="建筑信息模型提取" Height="800" Width="640" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="导出BIM元素到EXCEL表中" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center"  
+                       FontSize="30"/>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="建筑" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center"  
+                       FontSize="30"/>
+                    <ComboBox  Grid.Row="1" HorizontalAlignment="Center" Width="160" Height="60" Name="jianzhu" ItemsSource="{Binding}"
+                         VerticalAlignment="Center" />
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="结构" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center"  
+                       FontSize="30"/>
+                    <ComboBox  Grid.Row="1" HorizontalAlignment="Center" Width="160" Height="60" Name="jiegou" ItemsSource="{Binding}"
+                         VerticalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="机电" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center"  
+                       FontSize="30"/>
+                    <ComboBox  Grid.Row="1" HorizontalAlignment="Center" Width="160" Height="60" Name="mep" ItemsSource="{Binding}"
+                         VerticalAlignment="Center"/>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="请选择EXCEL文件位置" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center"  
+                       FontSize="20"/>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox  Grid.Column="0"  HorizontalAlignment="Right" Width="200" Height="40" Name="excelFilePath" 
+                         VerticalAlignment="Center"/>
+                    <Button Grid.Column="1" Name="path"
+                            Click="Path_Click" Width="130" Height="40" Content="........"/>
+                </Grid>
+            </Grid>
+            
+            <Grid Grid.Row="1">
+                <Button  Name="outdata" Click="Outdata_Click"  Width="130" Height="40" Content="导出到MYSQL数据库"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Button  Name="outhtml" Click="Outhtml_Click" Width="130" Height="40" Content="导出到MYSQL数据库"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

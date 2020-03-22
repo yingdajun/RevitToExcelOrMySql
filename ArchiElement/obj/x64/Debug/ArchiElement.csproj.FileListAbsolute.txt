@@ -1,0 +1,15 @@
+I:\NewC#demo\New1\ArchiElement\ArchiElement\bin\x64\Debug\ArchiElement.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\bin\x64\Debug\ArchiElement.pdb
+I:\NewC#demo\New1\ArchiElement\ArchiElement\bin\x64\Debug\RevitAddInUtility.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\bin\x64\Debug\RevitAPI.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\bin\x64\Debug\RevitAPIUI.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\Interop.Microsoft.Office.Core.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\Interop.Office.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\ArchiElement.csproj.ResolveComReference.cache
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\ArchiElement.csproj.CoreCompileInputs.cache
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\ArchiElement.csproj.CopyComplete
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\ArchiElement.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\ArchiElement.pdb
+I:\NewC#demo\New1\ArchiElement\ArchiElement\bin\x64\Debug\MySql.Data.dll
+I:\NewC#demo\New1\ArchiElement\ArchiElement\obj\x64\Debug\ArchiElement.csprojAssemblyReference.cache

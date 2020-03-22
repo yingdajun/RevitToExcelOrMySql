@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>External Tool</Name>
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>fb8e18dd-acfe-46bb-a301-75da14422f41</ClientId>
+    <FullClassName>ArchiElement.Ribbon</FullClassName>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>71ab67f4-b4b3-4942-a78a-9b62b65328b0</ClientId>
+    <FullClassName>ArchiElement.BeamTest</FullClassName>
+    <Text>BeamTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>a1c6f4c0-6373-4dd1-9787-47682e45b962</ClientId>
+    <FullClassName>ArchiElement.ColumnTest</FullClassName>
+    <Text>ColumnTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>5f0f232f-1177-4fa1-b2ec-72307e585e20</ClientId>
+    <FullClassName>ArchiElement.DoorTest</FullClassName>
+    <Text>DoorTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>93d1e20a-7845-47e5-bc08-3c777b6968c7</ClientId>
+    <FullClassName>ArchiElement.DuctTest</FullClassName>
+    <Text>DuctTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>c8072f56-d9e4-459e-a96a-419823f17e8d</ClientId>
+    <FullClassName>ArchiElement.EletricalQTest</FullClassName>
+    <Text>EletricalQTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>37a78f8b-f395-4e6e-986e-1e726a81d342</ClientId>
+    <FullClassName>ArchiElement.FloorTest</FullClassName>
+    <Text>FloorTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>e04c25c6-2d6e-4f2a-bbe6-1ccd51d84e25</ClientId>
+    <FullClassName>ArchiElement.PipeTest</FullClassName>
+    <Text>PipeTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>81f44ca7-fc41-4429-92e3-0695587c4fd6</ClientId>
+    <FullClassName>ArchiElement.RoomTest</FullClassName>
+    <Text>RoomTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>5a3b2fc1-d634-435c-baf0-029b6558105e</ClientId>
+    <FullClassName>ArchiElement.WallTest</FullClassName>
+    <Text>WallTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>ArchiElement.dll</Assembly>
+    <ClientId>7b464f54-eab4-4fb4-bf08-99f8308c635e</ClientId>
+    <FullClassName>ArchiElement.WindowTest</FullClassName>
+    <Text>WindowTest</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

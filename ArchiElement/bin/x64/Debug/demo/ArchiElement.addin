@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Ribbon</Name>
+    <Assembly> I:\NewC#demo\New1\ArchiElement\ArchiElement\bin\x64\Debug\ArchiElement.dll</Assembly>
+    <ClientId>833c8006-0e95-47ba-a39f-b4f03b2fe9dc</ClientId>
+    <FullClassName>ArchiElement.Ribbon</FullClassName>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+ 
+</RevitAddIns>
